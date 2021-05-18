@@ -21,8 +21,13 @@
         font-family: Roboto, sans-serif !important;
     }
 
-    .appfooter__link--poweredby {
+    .appfooter__link--poweredby,
+    .catalogcards__header {
         display: none;
+    }
+
+    .catalogcards {
+        margin-bottom: 0;
     }
 
     .main__content {
@@ -36,7 +41,7 @@
 
     #yh-hero-container {
         position: absolute;
-        top: calc(-152px - 100vw/3);
+        top: calc(-100vw / 3);
         height: calc(100vw / 3);
         max-height: calc(100vw / 3);
         display: flex;
@@ -71,7 +76,7 @@
     }
 
     #yh-hero-info button:hover {
-        background: var(--muted-main-brand-color)
+        background: var(--muted-main-brand-color);
     }
 
     #yh-hero-info div:empty {
@@ -94,7 +99,8 @@
             margin: 0.5rem 0;
         }
 
-        #yh-hero-container button {
+        #yh-hero-container button,
+        #yh-hero-info a {
             font-size: 0.6rem;
             padding: 0.6rem;
         }
@@ -117,7 +123,8 @@
             margin: 0.5rem 0;
         }
 
-        #yh-hero-container button {
+        #yh-hero-container button,
+        #yh-hero-info a {
             font-size: 0.6rem;
             padding: 0.4rem;
         }
@@ -139,7 +146,8 @@
             margin: 0.5rem 0 1rem 0;
         }
 
-        #yh-hero-container button {
+        #yh-hero-container button,
+        #yh-hero-info a {
             font-size: 0.8rem;
             padding: 0.6rem;
         }
@@ -160,7 +168,8 @@
             line-height: 1.5;
         }
 
-        #yh-hero-container button {
+        #yh-hero-container button,
+        #yh-hero-info a {
             font-size: 1rem;
             padding: 0.8rem;
         }
@@ -180,7 +189,8 @@
             line-height: 1.5;
         }
 
-        #yh-hero-info button {
+        #yh-hero-container button,
+        #yh-hero-info a {
             font-size: 1.2rem;
             padding: 1rem;
         }
@@ -196,7 +206,8 @@
             line-height: 1.5;
         }
 
-        #yh-hero-info button {
+        #yh-hero-container button,
+        #yh-hero-info a {
             font-size: 1.5rem;
             padding: 1.2rem;
         }
