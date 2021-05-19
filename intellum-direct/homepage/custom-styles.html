@@ -1,0 +1,270 @@
+<style>
+    @font-face {
+        font-family: "VerizonNHGeTX-Regular";
+        src: url("https://brandcentral.verizonwireless.com/public/fonts/VerizonNHGeTX-Regular.eot?#iefix");
+        src: url("https://brandcentral.verizonwireless.com/public/fonts/VerizonNHGeTX-Regular.eot?#iefix") format("eot"), url("https://brandcentral.verizonwireless.com/public/fonts/VerizonNHGeTX-Regular.woff2") format("woff2"), url("https://brandcentral.verizonwireless.com/public/fonts/VerizonNHGeTX-Regular.woff") format("woff")
+    }
+
+    @font-face {
+        font-family: "VerizonNHGeTX-Bold";
+        src: url("https://brandcentral.verizonwireless.com/public/fonts/VerizonNHGeTX-Bold.eot?#iefix");
+        src: url("https://brandcentral.verizonwireless.com/public/fonts/VerizonNHGeTX-Bold.eot?#iefix") format("eot"), url("https://brandcentral.verizonwireless.com/public/fonts/VerizonNHGeTX-Bold.woff2") format("woff2"), url("https://brandcentral.verizonwireless.com/public/fonts/VerizonNHGeTX-Bold.woff") format("woff")
+    }
+
+    @font-face {
+        font-family: "VerizonNHGeDS-Regular";
+        src: url("https://brandcentral.verizonwireless.com/public/fonts/VerizonNHGeDS-Regular.eot?#iefix");
+        src: url("https://brandcentral.verizonwireless.com/public/fonts/VerizonNHGeDS-Regular.eot?#iefix") format("eot"), url("https://brandcentral.verizonwireless.com/public/fonts/VerizonNHGeDS-Regular.woff2") format("woff2"), url("https://brandcentral.verizonwireless.com/public/fonts/VerizonNHGeDS-Regular.woff") format("woff")
+    }
+
+    @font-face {
+        font-family: "VerizonNHGeDS-Bold";
+        src: url("https://brandcentral.verizonwireless.com/public/fonts/VerizonNHGeDS-Bold.eot?#iefix");
+        src: url("https://brandcentral.verizonwireless.com/public/fonts/VerizonNHGeDS-Bold.eot?#iefix") format("eot"), url("https://brandcentral.verizonwireless.com/public/fonts/VerizonNHGeDS-Bold.woff2") format("woff2"), url("https://brandcentral.verizonwireless.com/public/fonts/VerizonNHGeDS-Bold.woff") format("woff")
+    }
+
+    @font-face {
+        font-family: "VerizonIcon";
+        src: url("https://brandcentral.verizonwireless.com/public/fonts/VerizonIcon.eot?88965908");
+        src: url("https://brandcentral.verizonwireless.com/public/fonts/VerizonIcon.eot?88965908#iefix") format("embedded-opentype"), url("https://brandcentral.verizonwireless.com/public/fonts/VerizonIcon.woff?88965908") format("woff"), url("https://brandcentral.verizonwireless.com/public/fonts/VerizonIcon.ttf?88965908") format("truetype"), url("https://brandcentral.verizonwireless.com/public/fonts/VerizonIcon.svg?88965908#VerizonIcon") format("svg")
+    }
+</style>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Goblin+One&display=swap" rel="stylesheet">
+<style>
+    * {
+        font-family: Roboto, sans-serif !important;
+    }
+
+    .appfooter__link--poweredby,
+    .yh-no-show {
+        display: none;
+    }
+
+    .main__content {
+        max-width: unset;
+    }
+
+    section.catalogcards:first-of-type {
+        margin-bottom: 8vw
+    }
+
+    .catalogcards__header {
+        justify-content: center;
+    }
+
+    .yh-homepage-sizzle-container,
+    .yh-get-certified-container {
+        max-width: 1000px;
+    }
+
+    .yh-get-certified-container {
+        margin: 0 auto;
+    }
+
+    .yh-section-content-centered {
+        text-align: center;
+    }
+
+    .yh-homepage-sizzle-container {
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .yh-get-certified-content {
+        display: flex;
+        align-content: space-between;
+        flex-wrap: wrap;        
+    }
+
+    .yh-get-certified-item {
+        flex: 1;
+        flex-basis: 33%;
+        padding-right: 4%;
+        min-width: 200px;
+    }
+
+    #yh-hero-container {
+        position: absolute;
+        top: calc(-100vw / 3);
+        height: calc(100vw / 3);
+        max-height: calc(100vw / 3);
+        display: flex;
+        align-items: center;
+        width: 100%;
+        color: white;
+    }
+
+    #catalog_home_page,
+    #yh-hero-container,
+    #yh-hero-info,
+    #yh-hero-info>* {
+        margin: unset;
+    }
+
+    #yh-hero-info .pgheading__name,
+    .yh-hero-button a.yh-action-button {
+        white-space: nowrap;
+    }
+
+    #yh-hero-info {
+        max-width: 50%;
+    }
+
+    #yh-hero-info>* {
+        padding: 0.5rem;
+    }
+
+    @media screen and (max-width:479px) {
+
+        .main__content--catalog {
+            padding: 0 6px;
+        }
+
+        .yh-homepage-sizzle-container {
+            padding: 4px 0;
+            margin: 4px auto;
+        }
+
+        #yh-hero-info .pgheading__name,
+        .u-headingsection {
+            font-size: 14px;
+            line-height: 14px;
+        }
+
+        .yh-hero-subhead,
+        .yh-hero-button a.yh-action-button,
+        .yh-section-content-centered {
+            font-size: 10px;
+            line-height: 15px;
+        }
+
+        .yh-hero-button a.yh-action-button {
+            min-height: unset;
+            min-width: unset;
+            padding: 3px 12px;
+        }
+
+    }
+
+    @media screen and (min-width:480px) {
+
+        .main__content--catalog {
+            padding: 0 18px;
+        }
+
+        .yh-homepage-sizzle-container {
+            padding: 8px 0;
+            margin: 8px auto;
+        }
+
+        #yh-hero-info .pgheading__name,
+        .u-headingsection {
+            font-size: 18px;
+            line-height: 18px;
+        }
+
+        .yh-hero-subhead,
+        .yh-hero-button a.yh-action-button,
+        .yh-section-content-centered {
+            font-size: 12px;
+            line-height: 18px;
+        }
+
+        .yh-hero-button a.yh-action-button {
+            min-height: unset;
+            min-width: unset;
+            padding: 3px 12px;
+        }
+    }
+
+    @media screen and (min-width:720px) {
+
+        .main__content--catalog {
+            padding: 0 30px;
+        }
+
+        .yh-homepage-sizzle-container {
+            padding: 12px 0;
+            margin: 12px auto;
+        }
+
+        .yh-section-content-centered {
+            font-size: unset;
+            line-height: unset;
+        }
+
+        #yh-hero-info .pgheading__name,
+        .u-headingsection {
+            font-size: 36px;
+            line-height: 36px;
+        }
+
+        .yh-hero-subhead,
+        .yh-hero-button a.yh-action-button {
+            font-size: 18px;
+            line-height: 24px;
+        }
+
+        .yh-hero-button a.yh-action-button {
+            padding: 6px 24px;
+        }
+    }
+
+    @media screen and (min-width:992px) {
+
+        .main__content--catalog {
+            padding: 0 50px;
+        }
+
+        .yh-homepage-sizzle-container {
+            padding: 16px 0;
+            margin: 16px auto;
+        }
+
+        #yh-hero-info .pgheading__name,
+        .u-headingsection {
+            font-size: 42px;
+            line-height: 42px;
+        }
+
+        .yh-hero-subhead,
+        .yh-hero-button a.yh-action-button {
+            font-size: 21px;
+            line-height: 32px;
+        }
+
+        .yh-hero-button a.yh-action-button {
+            padding: 7px 30px;
+        }
+    }
+
+    @media screen and (min-width:1200px) {
+        .main__content--catalog {
+            padding: 0 100px;
+        }
+
+        .yh-homepage-sizzle-container {
+            padding: 32px 0;
+            margin: 32px auto;
+        }
+
+        #yh-hero-info .pgheading__name,
+        .u-headingsection {
+            font-size: 50px;
+            line-height: 50px;
+        }
+
+        .yh-hero-subhead,
+        .yh-hero-button a.yh-action-button {
+            font-size: 24px;
+            line-height: 36px;
+        }
+
+        .yh-hero-button a.yh-action-button {
+            min-height: 50px;
+            min-width: 180px;
+            padding: 8px 30px;
+        }
+    }
+</style>
