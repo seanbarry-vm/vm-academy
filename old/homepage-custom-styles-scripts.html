@@ -1,0 +1,224 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Goblin+One&display=swap" rel="stylesheet">
+<script>
+    const scrollPastHero = () => {
+        const scrollOptions = {
+            left: 0,
+            top: 50 + (window.innerWidth / 3),
+            behavior: 'smooth'
+        };
+        window.scrollTo(scrollOptions);
+    }
+</script>
+
+<style>
+    :root {
+        --main-brand-color: #d52b1e;
+        --muted-main-brand-color: #bf251d;
+    }
+
+    * {
+        font-family: Roboto, sans-serif !important;
+    }
+
+    .appfooter__link--poweredby,
+    .catalogcards__header {
+        display: none;
+    }
+
+    .catalogcards {
+        margin-bottom: 0;
+    }
+
+    .main__content {
+        max-width: unset;
+    }
+
+    .main__content--catalog {
+        padding: 0 100px;
+        margin: unset;
+    }
+
+    #yh-hero-container {
+        position: absolute;
+        top: calc(-100vw / 3);
+        height: calc(100vw / 3);
+        max-height: calc(100vw / 3);
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    #yh-hero-section {
+        color: white;
+        max-width: 50%;
+        width: 100%;
+    }
+
+    #yh-hero-container,
+    #yh-hero-section,
+    #yh-hero-info,
+    #yh-hero-info p {
+        margin-bottom: unset;
+    }
+
+    #yh-hero-info h1 {
+        font-weight: bold;
+        line-height: normal;
+    }
+
+    #yh-hero-info button {
+        background: var(--main-brand-color);
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        transition: 0.2s;
+    }
+
+    #yh-hero-info button:hover {
+        background: var(--muted-main-brand-color);
+    }
+
+    #yh-hero-info div:empty {
+        display: none;
+    }
+
+    @media screen and (max-width:479px) {
+
+        .main__content--catalog {
+            padding: 0 10px;
+        }
+
+        #yh-hero-container h1 {
+            font-size: 1rem;
+        }
+
+        #yh-hero-container p {
+            font-size: 0.7rem;
+            line-height: 1;
+            margin: 0.5rem 0;
+        }
+
+        #yh-hero-container button,
+        #yh-hero-info a {
+            font-size: 0.6rem;
+            padding: 0.6rem;
+        }
+    }
+
+    @media screen and (min-width:480px) {
+
+        .main__content--catalog {
+            padding: 0 20px;
+        }
+
+        #yh-hero-container h1 {
+            font-size: 1.2rem;
+            white-space: nowrap;
+        }
+
+        #yh-hero-container p {
+            font-size: 0.8rem;
+            line-height: 1.4;
+            margin: 0.5rem 0;
+        }
+
+        #yh-hero-container button,
+        #yh-hero-info a {
+            font-size: 0.6rem;
+            padding: 0.4rem;
+        }
+    }
+
+    @media screen and (min-width:720px) {
+
+        .main__content--catalog {
+            padding: 0 30px;
+        }
+
+        #yh-hero-container h1 {
+            font-size: 1.5rem;
+        }
+
+        #yh-hero-container p {
+            font-size: 1rem;
+            line-height: 1.2;
+            margin: 0.5rem 0 1rem 0;
+        }
+
+        #yh-hero-container button,
+        #yh-hero-info a {
+            font-size: 0.8rem;
+            padding: 0.6rem;
+        }
+    }
+
+    @media screen and (min-width:992px) {
+
+        .main__content--catalog {
+            padding: 0 50px;
+        }
+
+        #yh-hero-container h1 {
+            font-size: 2rem;
+        }
+
+        #yh-hero-container p {
+            font-size: 1.1rem;
+            line-height: 1.5;
+        }
+
+        #yh-hero-container button,
+        #yh-hero-info a {
+            font-size: 1rem;
+            padding: 0.8rem;
+        }
+    }
+
+    @media screen and (min-width:1200px) {
+        .main__content--catalog {
+            padding: 0 100px;
+        }
+
+        #yh-hero-info h1 {
+            font-size: 3rem;
+        }
+
+        #yh-hero-container p {
+            font-size: 1.5rem;
+            line-height: 1.5;
+        }
+
+        #yh-hero-container button,
+        #yh-hero-info a {
+            font-size: 1.2rem;
+            padding: 1rem;
+        }
+    }
+
+    @media screen and (min-width:1600px) {
+        #yh-hero-info h1 {
+            font-size: 4rem;
+        }
+
+        #yh-hero-container p {
+            font-size: 2rem;
+            line-height: 1.5;
+        }
+
+        #yh-hero-container button,
+        #yh-hero-info a {
+            font-size: 1.5rem;
+            padding: 1.2rem;
+        }
+    }
+
+    @media screen and (min-width:3000px) {}
+
+    /*
+    @media screen and (min-width:480px) {}
+    @media screen and (min-width:580px) {}
+    @media screen and (min-width:760px) {}
+    @media screen and (min-width:992px) {}
+    */
+</style>
