@@ -14,4 +14,4 @@
 /* Exceed left navigation customizations */
 @media screen and (min-width: 421px) { .pathdrawer {width: 200px; min-width: 200px;} }
 @media screen and (min-width: 1600px) { .pathdrawer {width: 300px; min-width: 300px;} }
-button.pathdrawer__btn {background-color: #d52b1e !important; border-color: #d52b1e !important; color: #fff !important;}
+button.pathdrawer__btn {background-color: #39007D !important; border-color: #39007D !important; color: #fff !important;}
